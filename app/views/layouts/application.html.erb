@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>OutworldReptiles</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>OutworldReptiles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+  <%= csrf_meta_tags %>
+  <%= javascript_include_tag 'application' %> 
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,900;1,200;1,300;1,400;1,600;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e961c52d73.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Outworld Reptiles</h1>
+  </header>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%- flash.each do |key, value| -%>
+    <div class="flash flash-<%= key %>">
+      <%= value %>
+    </div>
+  <%- end -%>
 
-  <body>
-    <%= yield %>
-  </body>
+  <%= yield %>
+
+    </div>
+    <div class="footer">
+      <h3>&copy; Outworld Reptiles</h3>
+    </div>
+  
+  <%- if Rails.env.development? || Rails.env.test? -%> 
+    <%= javascript_tag do %>
+      window.railsEnv = '<%= Rails.env %>'
+    <%- end -%>
+  <%- end -%>
+  <%= javascript_pack_tag 'Application' %>
+  
+  <%= yield :extra_footer %>
+  
+</body>
 </html>
