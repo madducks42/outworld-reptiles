@@ -1,12 +1,7 @@
 .callout {
-  border: 1px solid #adb5bd;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  // border: 1px solid #adb5bd;
   padding: 5px;
-}
-
-.center-text {
-  text-align: center;
+  background-color: #BFC0C0;
 }
 
 // Generic Flexblox Style
@@ -14,6 +9,10 @@
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+.flex-row img {
+  margin: 5px;
 }
 
 .flex-column {
