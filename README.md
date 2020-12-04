@@ -1,24 +1,53 @@
-# README
+# Outworld Reptiles
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Still a work in progress with targeted completion date of 12/6/20.
 
-Things you may want to cover:
+Outworld Reptiles is a simple app that displays information about the owners of Outworld Reptiles and the reptiles in their collection. When they have reptiles for sale those are listed on the Available page.
 
-* Ruby version
+The app was built with a Ruby on Rails backend with a PostgreSQL database. The front-end was built with React and styled with Bulma. This application also uses ActiveRecord and Images are stored in AWS S3 Cloud Storage.
 
-* System dependencies
+[See the deployed application on Heroku](https://outworld-reptiles.herokuapp.com)
 
-* Configuration
+## Built with
+- [Ruby on Rails](https://guides.rubyonrails.org/v5.2/)
+- [React.js](https://reactjs.org/docs/getting-started.html)
+- [PostgreSQL](https://www.postgresql.org/docs/13/index.html)
+```
 
-* Database creation
+## Run Locally
+The setup steps expect the following tools/versions:
+- Ruby 2.6.5
+- Rails 5.2.4.4
+- PostgreSQL 13
 
-* Database initialization
+###### Clone the Repo
+```
+git clone 
+```
+###### Install Dependencies
+```
+npm install 
+```
+```
+bundle install 
+```
 
-* How to run the test suite
+###### Create and seed the database
+```
+bundle exec rake db: migrate
+```
+```
+bundle exec rake db: seed
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+###### Run the test suite
+```
+bundle exec rspec
+```
+###### Start the Rails server and webpack-dev-server
+```
+bundle exec rails s
+npm run start
+```
 
-* Deployment instructions
-
-* ...
+###### The application can be accessed locally at <http://localhost:3000>
