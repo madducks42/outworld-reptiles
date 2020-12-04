@@ -13,4 +13,30 @@
  *= require_tree .
  *= require_self
  */
- @import "bootstrap";
+
+// Header Overrides
+$navbar-background-color:#3A7CA5;
+$navbar-height: 10rem;
+$navbar-item-img-max-height: 8rem;
+$navbar-item-color: #E8EDDF;
+$navbar-item-hover-color: #E8EDDF;
+$navbar-item-hover-background-color: #EF8354;
+
+// Footer Overrides
+$footer-background-color: #3A7CA5;
+$footer-color: true;
+$footer-padding: 2rem;
+
+// Font Overrides
+$is-family-primary: "Source Serif Pro";
+$is-family-secondary: serif;
+$size-1: 3rem;
+$size-2: 2.5rem;
+$size-3: 2.25rem;
+$size-4: 2rem;
+$size-5: 1.5rem;
+$size-6: 1.25rem;
+$size-7: 1rem;
+
+
+ @import "bulma";

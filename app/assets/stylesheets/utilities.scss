@@ -1,0 +1,49 @@
+.callout {
+  // border: 1px solid #adb5bd;
+  padding: 5px;
+  background-color: #BFC0C0;
+}
+
+// Generic Flexblox Style
+.flex-row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.flex-row img {
+  margin: 5px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+// Button styles
+.button,
+.button:active {
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.8rem;
+
+  margin: 5px 0px 0px 0px;
+  padding: 10px;
+  height: 40px;
+  width: fit-content;
+  border-radius: 2px;
+  background-color: #984447;
+  color: #f7f9fb;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+}
+
+.button:hover {
+  background-color: #ed9905;
+  color: #f7f9fb;
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.8rem;
+}
+
+.button:focus {
+  background-color: #984447;
+}

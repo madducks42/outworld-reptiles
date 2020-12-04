@@ -1,8 +1,47 @@
-// .content {
-//   flex: 1 0 auto;
-//   width: 100%;
-// }
+// Color Scheme
+.color-scheme-white {
+  color: #E8EDDF;
+}
 
-.center-text {
-  text-align: center;
+.color-scheme-black {
+  color: #242423;
+}
+
+.color-scheme-orange {
+  color: #EF8354;
+}
+
+.color-scheme-medium-blue {
+  color: #3A7CA5;
+}
+
+.color-scheme-yellow {
+  color: #F5CB5C;
+}
+
+.color-scheme-silver {
+  color: #BFC0C0;
+}
+
+// General Page Setup
+html {
+  font-size: 62.5%;
+  height: 100%;
+  position: relative;
+  margin: 0px;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: "Source Serif Pro", serif;
+  font-size: 1.4rem;
+  color: #101419;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+  width: 100%;
 }
