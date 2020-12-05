@@ -1,6 +1,13 @@
 import React from "react";
 
 const CollectionTile = (props) => {
+let sexIcon
+  if (props.sex === "female") {
+    sexIcon = "fas fa-venus"
+  } else {
+    sexIcon = "fas fa-mars"
+  }
+
   return (
     <div className="column is-one-third">
       <div className="card">
@@ -12,7 +19,7 @@ const CollectionTile = (props) => {
         <div className="card-content">
           <div className="media">
             <div className="media-content">
-              <p className="title is-4">{props.name}</p>
+              <p className="title is-4">{props.name}{" "}<i className={sexIcon}></i></p>
               <p className="subtitle is-6">{props.title}</p>
             </div>
           </div>
