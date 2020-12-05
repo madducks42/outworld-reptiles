@@ -1,7 +1,6 @@
 import React from "react";
 
 const CollectionTile = (props) => {
-  // debugger
   return (
     <div className="column is-one-third">
       <div className="card">
