@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= csrf_meta_tags %>
-  <%= javascript_include_tag 'application' %> 
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,300;0,400;0,900;1,200;1,300;1,400;1,600;1,900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/e961c52d73.js" crossorigin="anonymous"></script>
 </head>
@@ -25,8 +24,8 @@
     
     <div class="navbar-menu" id="nav-links">
       <div class="navbar-end">
-        <a class="navbar-item" >Home</a>
-        <a class="navbar-item">Collection</a>
+        <a class="navbar-item" href="/" >Home</a>
+        <a class="navbar-item" href="/collection">Collection</a>
         <a class="navbar-item">Available</a>
         <a class="navbar-item">Contact</a>
       </div>
@@ -34,29 +33,28 @@
    
   </nav>
 
-    <%- flash.each do |key, value| -%>
-      <div class="flash flash-<%= key %>">
-        <%= value %>
-      </div>
-    <%- end -%>
+  <%- flash.each do |key, value| -%>
+    <div class="flash flash-<%= key %>">
+      <%= value %>
+    </div>
+  <%- end -%>
 
-    <%= yield %>
+  <%= yield %>
 
-      </div>
-      <footer class="has-text-centered footer">
-        <h3>&copy; Outworld Reptiles</h3>
-      </footer>
+  <footer class="has-text-centered footer">
+    <h3>&copy; Outworld Reptiles</h3>
+  </footer>
     
-    <%- if Rails.env.development? || Rails.env.test? -%> 
-      <%= javascript_tag do %>
-        window.railsEnv = '<%= Rails.env %>'
-      <%- end -%>
+  <%= javascript_include_tag 'application' %> 
+  
+  <%- if Rails.env.development? || Rails.env.test? -%> 
+    <%= javascript_tag do %>
+      window.railsEnv = '<%= Rails.env %>'
     <%- end -%>
-    <%= javascript_pack_tag 'application' %>
-    
-    <%= yield :extra_footer %>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <%- end -%>
+  <%= javascript_pack_tag 'application' %>
+  
+  <%= yield :extra_footer %>
    
 </body>
 </html>
