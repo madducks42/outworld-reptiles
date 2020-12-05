@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root 'homepage#index'
 
   get '/collection', to: 'homepage#index'
+  get '/available', to: 'homepage#index'
 
 
   resources :collections, only: [:index]
