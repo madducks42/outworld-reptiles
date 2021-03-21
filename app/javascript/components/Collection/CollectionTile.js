@@ -13,7 +13,10 @@ let sexIcon
       <div className="card">
         <div className="card-image">
           <figure className="image is-4by3">
-            <img src={props.image} alt="Boa Constrictor" />
+            <a href={props.image} data-lightbox={props.name} >
+              <img className ="gallery-image" src={props.image} alt="Snake"/>
+            </a>
+            {/* <img src={props.image} alt="Boa Constrictor" /> */}
           </figure>
         </div>
         <div className="card-content">

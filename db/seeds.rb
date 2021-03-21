@@ -6,6 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Collection.destroy_all
+
 # BCI's
 snake_1 = Collection.create(name: 'Boo', image: 'https://outworld-reptiles-production.s3.amazonaws.com/boo_1.jpg', title: '2013 Ghost Het Albino', description: 'Paired with Olasard for the 2020/2021 season.', sex: 'female', category: 'bci')
 

@@ -13,17 +13,23 @@ const AvailableContainer = () => {
             <div className="box">
               <p className="is-size-7">
                 General info on sales and shipping. The health,sex, genetics of
-                all boas is guranteed on pickup/shipment arrival. I ship using
+                all boas is guaranteed on pickup/shipment arrival. I ship using
                 ShipYourReptiles and all shipments are sent FedEx Overnight
                 which delivers around 10:30am in most areas. Shipping is a flat
                 rate of $50 per box. If the weather is below 65 degrees or above
-                90 degrees shipmenets must be sent to a FedEx Ship Center! A 25%
+                90 degrees shipments must be sent to a FedEx Ship Center! A 25%
                 non-refundable down payment is required to hold any boas for
                 more than 24 hours. Payment plans are available for purchases
                 over $500. Discounts are offered for local sales (i.e. no
                 shipping) and multiple purchases. Send me an email if you have
                 any questions!
               </p>
+            </div>
+            <div>
+              <a href="https://outworld-reptiles-production.s3.amazonaws.com/angel_1.jpg" data-lightbox="lightbox" >
+                <img className ="gallery-image" src="https://outworld-reptiles-production.s3.amazonaws.com/angel_1.jpg" alt="lightbox"/>
+              </a>
+              {/* <a href="https://outworld-reptiles-production.s3.amazonaws.com/angel_1.jpg" data-lightbox="image-1" data-title="My caption">Image #1</a> */}
             </div>
           </div>
         </div>
