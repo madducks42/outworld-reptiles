@@ -25,12 +25,6 @@ const AvailableContainer = () => {
                 any questions!
               </p>
             </div>
-            <div>
-              <a href="https://outworld-reptiles-production.s3.amazonaws.com/angel_1.jpg" data-lightbox="lightbox" >
-                <img className ="gallery-image" src="https://outworld-reptiles-production.s3.amazonaws.com/angel_1.jpg" alt="lightbox"/>
-              </a>
-              {/* <a href="https://outworld-reptiles-production.s3.amazonaws.com/angel_1.jpg" data-lightbox="image-1" data-title="My caption">Image #1</a> */}
-            </div>
           </div>
         </div>
       </div>
