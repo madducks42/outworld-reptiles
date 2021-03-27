@@ -15,7 +15,7 @@ snake_2 = Collection.create(name: 'Lasciel', image: 'https://outworld-reptiles-p
 
 snake_3 = Collection.create(name: 'Nyssa al Ghul', image: 'https://outworld-reptiles-production.s3.amazonaws.com/nyssa_1.jpg', title: '2015 Jungle Arabesque', description: 'Paired with Ferrovax for the 2020/2021 season.', sex: 'female', category: 'bci')
 
-snake_4 = Collection.create(name: 'Calypso', image: 'https://outworld-reptiles-production.s3.amazonaws.com/calypso_1.jpg', title: '2014 Hypo het Anery', description: "Skipping 2020/2021 breeding season.", sex: 'female', category: 'bci')
+snake_4 = Collection.create(name: 'Hecate', image: 'https://outworld-reptiles-production.s3.amazonaws.com/hecate_1.jpg', title: '2020 Triple Pastel Hypo Jungle Arabesque het Kahl Albino', description: "Skipping 2020/2021 breeding season.", sex: 'female', category: 'bci')
 
 snake_5 = Collection.create(name: 'Artemis', image: 'https://outworld-reptiles-production.s3.amazonaws.com/artemis_1.jpg', title: '2014 Aby Hypo', description: 'Skipping 2020/2021 breeding season.', sex: 'female', category: 'bci')
 
