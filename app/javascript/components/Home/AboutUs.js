@@ -13,7 +13,7 @@ const AboutUs = () => {
       </p>
       <p className="is-size-7">
         We typically only have a couple litters a year, once the babies are
-        established they will be posted to the For Sale page. If you have any
+        established they will be posted on <a href="https://www.morphmarket.com/stores/outworldreptiles/" target="_blank" rel="noreferrer">Morph Market</a>. If you have any
         questions please contact us at outworldreptiles@gmail.com.
       </p>
       <br />
