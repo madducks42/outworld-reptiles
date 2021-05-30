@@ -14,12 +14,12 @@ const Updates = () => {
             Boo (Ghost het Albino) x Olasard (Hypo Jungle Motley het Albino)
           </li>
           <li>
-            Nyssa (Jungle Arabesque) x Ferrovax (European Line Hypo)
+            Artemis (Aby Super Hypo ph Anery) x Aspid (Anery het Albino)
           </li>
           <li>
             Kitana (Maxx Pink Argentine Boa) x Jax (Argentine Boa)
           </li>
-          <li>Buffy (Blood Boa) x Spike (Blood Boa)</li>
+          <li>Buffy (Blood het Anery) x Spike (Blood het Anery)</li>
           <li>Angel (DH Blood/Albino Boa) x Faith (DH Blood/Albino Boa)</li>
         </ul>
       </div>
