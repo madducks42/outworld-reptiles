@@ -48,7 +48,7 @@ snake_26 = Collection.create(name: 'Drusilla', image: 'https://outworld-reptiles
 
 snake_27 = Collection.create(name: 'Alucard', image: 'https://outworld-reptiles-production.s3.amazonaws.com/alucard_1.jpg',title: '2020 Jungle Albino het Blood', description: 'Skipping the 2021/2022 season', sex: 'male', category: 'blood')
 
-snake_27 = Collection.create(name: 'Belmont', image: 'https://outworld-reptiles-production.s3.amazonaws.com/belmont_1.jpg',title: '2020 Jungle het Albino/Blood', description: 'Skipping the 2021/2022 season', sex: 'male', category: 'blood')
+snake_28 = Collection.create(name: 'Belmont', image: 'https://outworld-reptiles-production.s3.amazonaws.com/belmont_1.jpg',title: '2020 Jungle het Albino/Blood', description: 'Skipping the 2021/2022 season', sex: 'male', category: 'blood')
 
 # Argentine Boas
 snake_16 = Collection.create(name: 'Kitana', image: 'https://outworld-reptiles-production.s3.amazonaws.com/kitana_1.jpg',title: '2014 Maxx Pink Argentine', description: 'Hopefully gravid and expecting a litter in Sept 2021!', sex: 'female', category: 'bco')
