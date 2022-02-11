@@ -4,7 +4,7 @@ Outworld Reptiles is a simple app that displays information about the owners of 
 
 The app was built with a Ruby on Rails backend with a PostgreSQL database. The front-end was built with React and styled with Bulma. This application also uses ActiveRecord and Images are stored in AWS S3 Cloud Storage.
 
-[See the deployed application here](https://outworld-reptiles.com)
+[See the deployed application here](https://outworld-reptiles.herokuapp.com/)
 
 ## Built with
 - [Ruby on Rails](https://guides.rubyonrails.org/v5.2/)
